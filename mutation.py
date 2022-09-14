@@ -1,10 +1,3 @@
-# >>> string = "abracadabra"
-# >>> l = list(string)
-# >>> l[5] = 'k'
-# >>> string = ''.join(l)
-# >>> print string
-# abrackdabra
-
 def mutate_string(string, position, character):
     l = list(string)
     l[position] = character
